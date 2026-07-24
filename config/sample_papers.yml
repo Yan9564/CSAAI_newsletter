@@ -1,0 +1,26 @@
+{
+  "papers": [
+    {
+      "arxiv_id": "2401.00001v1",
+      "title": "Coordinating Tool-Using Language Model Agents for Enterprise Service Workflows",
+      "authors": ["A. Researcher", "B. Scholar"],
+      "abstract": "We propose a coordination framework for multiple LLM agents that delegate tool use across enterprise service workflows. The abstract describes orchestration mechanisms and qualitative evaluation plans but does not report benchmark results.",
+      "submitted_date": "2026-07-20T12:00:00Z",
+      "updated_date": "2026-07-20T12:00:00Z",
+      "arxiv_id_url": "https://arxiv.org/abs/2401.00001",
+      "pdf_url": "https://arxiv.org/pdf/2401.00001",
+      "primary_category": "cs.AI"
+    },
+    {
+      "arxiv_id": "2401.00002v1",
+      "title": "A Chemical Agent Survey",
+      "authors": ["C. Chemist"],
+      "abstract": "This paper discusses chemical agents and safety procedures, not artificial intelligence agents.",
+      "submitted_date": "2026-07-21T12:00:00Z",
+      "updated_date": "2026-07-21T12:00:00Z",
+      "arxiv_id_url": "https://arxiv.org/abs/2401.00002",
+      "pdf_url": "https://arxiv.org/pdf/2401.00002",
+      "primary_category": "cs.AI"
+    }
+  ]
+}

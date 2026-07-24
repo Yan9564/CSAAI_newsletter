@@ -1,0 +1,1 @@
+"""CSAAI cloud newsletter pipeline."""
