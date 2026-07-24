@@ -1,0 +1,49 @@
+publication:
+  frequency: weekly
+  timezone: UTC
+  issue_title: "CSAAI Agentic AI Weekly"
+  output_directory: newsletters
+  default_date_range_days: 7
+  max_papers: 12
+  dry_run_output: newsletters/dry-run-agentic-ai-weekly.md
+search:
+  arxiv_categories:
+    - cs.AI
+    - cs.CL
+    - cs.MA
+    - cs.LG
+    - cs.HC
+  topics:
+    - agentic AI
+    - multi-agent systems
+    - LLM agents
+    - agent orchestration
+    - agent coordination
+    - agent communication
+    - tool-using agents
+    - enterprise AI agents
+  exclusions:
+    - real estate agent
+    - travel agent
+    - chemical agent
+    - biological agent
+    - insurance agent
+  date_range_days: 7
+  max_results_per_topic: 50
+  paper_limit: 12
+openai:
+  model: gpt-4.1-mini
+  temperature: 0.2
+  max_retries: 4
+ranking:
+  weights:
+    relevance: 0.40
+    novelty: 0.25
+    methodological_quality: 0.20
+    enterprise_service_relevance: 0.15
+validation:
+  allow_numeric_metadata_only: true
+  forbidden_unsupported_number_patterns:
+    - "\\b\\d+(?:\\.\\d+)?%\\b"
+    - "\\b\\d+(?:\\.\\d+)?\\s*(?:x|times)\\b"
+    - "\\bstate-of-the-art\\b"
